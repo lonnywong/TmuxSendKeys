@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BBA236152797AE22000047FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA236142797AE22000047FE /* main.m */; };
+		BBA2361D2797B07A000047FE /* TmuxGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA2361C2797B07A000047FE /* TmuxGateway.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		BBA236112797AE22000047FE /* TmuxSendKeys */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TmuxSendKeys; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA236142797AE22000047FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBA2361B2797B07A000047FE /* TmuxGateway.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TmuxGateway.h; sourceTree = "<group>"; };
+		BBA2361C2797B07A000047FE /* TmuxGateway.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TmuxGateway.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				BBA236142797AE22000047FE /* main.m */,
+				BBA2361B2797B07A000047FE /* TmuxGateway.h */,
+				BBA2361C2797B07A000047FE /* TmuxGateway.m */,
 			);
 			path = TmuxSendKeys;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA2361D2797B07A000047FE /* TmuxGateway.m in Sources */,
 				BBA236152797AE22000047FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
